@@ -5,7 +5,7 @@ namespace Card.Data
 {
     public class AppDbContext : Microsoft.EntityFrameworkCore.DbContext
     {
-        public Microsoft.EntityFrameworkCore.DbSet<NCard> Todos { get; set; }
+        public Microsoft.EntityFrameworkCore.DbSet<NCard> NCard { get; set; }
 
         protected override void OnConfiguring(
             DbContextOptionsBuilder optionsBuilder)
