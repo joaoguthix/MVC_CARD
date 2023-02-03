@@ -5,6 +5,7 @@ namespace Card.Models
 {
     public class NCard
     {
+        
         public int Id { get; set; }
        
         public string TitleName { get; set; }

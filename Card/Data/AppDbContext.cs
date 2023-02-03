@@ -12,4 +12,5 @@ namespace Card.Data
             => optionsBuilder.UseSqlite("DataSource=app.db;Cache=shared");
 
     }
+
 }

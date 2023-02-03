@@ -53,7 +53,7 @@ namespace Card.Controllers
             var ncard = new NCard
             {
                 Date = DateTime.Now,
-                Done = false,
+                Done = false,   
                 TitleName = model.TitleName,
                 CardNumber = model.CardNumber,
                 Expiration = model.Expiration,
